@@ -1,0 +1,268 @@
+{
+  "model": "runs/pose/runs/pose/smoke13/weights/best.pt",
+  "data": "datasets/exercise-7efha-4/data.yaml",
+  "split": "val",
+  "images": 264,
+  "imgsz": 256,
+  "conf": 0.001,
+  "match_iou": 0.5,
+  "classes": [
+    "Bird Dog",
+    "Knee Push up",
+    "Plank",
+    "Push up",
+    "Revese Lunge",
+    "Squat"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      1,
+      0,
+      1,
+      11,
+      41,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      35,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      5,
+      43,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      5,
+      11,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      26,
+      27,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      18,
+      36,
+      0
+    ],
+    [
+      519,
+      1115,
+      5264,
+      1469,
+      2587,
+      3213,
+      0
+    ]
+  ],
+  "overall": {
+    "matched": 264,
+    "correct": 63,
+    "accuracy": 0.23863636363636365,
+    "macro_precision": 0.003508269816838224,
+    "macro_recall": 0.20213137665967854,
+    "macro_f1": 0.006894831283560246
+  },
+  "per_class": [
+    {
+      "class": "Bird Dog",
+      "labels": 55,
+      "predictions": 520,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "class": "Knee Push up",
+      "labels": 36,
+      "predictions": 1116,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "class": "Plank",
+      "labels": 48,
+      "predictions": 5264,
+      "correct": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "class": "Push up",
+      "labels": 18,
+      "predictions": 1471,
+      "correct": 1,
+      "precision": 0.0006798096532970768,
+      "recall": 0.05555555555555555,
+      "f1": 0.0013431833445265277
+    },
+    {
+      "class": "Revese Lunge",
+      "labels": 53,
+      "predictions": 2653,
+      "correct": 26,
+      "precision": 0.00980022615906521,
+      "recall": 0.49056603773584906,
+      "f1": 0.019216555801921657
+    },
+    {
+      "class": "Squat",
+      "labels": 54,
+      "predictions": 3406,
+      "correct": 36,
+      "precision": 0.010569583088667059,
+      "recall": 0.6666666666666666,
+      "f1": 0.020809248554913295
+    }
+  ],
+  "keypoints": [
+    {
+      "keypoint": "kpt_0",
+      "matched": 67,
+      "detection_rate": 0.25475285171102663,
+      "mean_error": 0.18970316391843073,
+      "median_error": 0.18175558811802153,
+      "pck_0.1": 0.019011406844106463,
+      "pck_0.2": 0.17110266159695817
+    },
+    {
+      "keypoint": "kpt_1",
+      "matched": 217,
+      "detection_rate": 0.8250950570342205,
+      "mean_error": 0.39060215959836736,
+      "median_error": 0.3997026035272706,
+      "pck_0.1": 0.045627376425855515,
+      "pck_0.2": 0.09505703422053231
+    },
+    {
+      "keypoint": "kpt_2",
+      "matched": 68,
+      "detection_rate": 0.2585551330798479,
+      "mean_error": 0.23514824729373185,
+      "median_error": 0.25023595746732574,
+      "pck_0.1": 0.030418250950570342,
+      "pck_0.2": 0.07224334600760456
+    },
+    {
+      "keypoint": "kpt_3",
+      "matched": 230,
+      "detection_rate": 0.8745247148288974,
+      "mean_error": 0.36301180696910884,
+      "median_error": 0.39490984377047933,
+      "pck_0.1": 0.12927756653992395,
+      "pck_0.2": 0.24334600760456274
+    },
+    {
+      "keypoint": "kpt_4",
+      "matched": 66,
+      "detection_rate": 0.2509505703422053,
+      "mean_error": 0.16285466304414348,
+      "median_error": 0.15599663403113279,
+      "pck_0.1": 0.03802281368821293,
+      "pck_0.2": 0.18631178707224336
+    },
+    {
+      "keypoint": "kpt_5",
+      "matched": 13,
+      "detection_rate": 0.049429657794676805,
+      "mean_error": 0.21498149502007846,
+      "median_error": 0.20255009568240243,
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.022813688212927757
+    },
+    {
+      "keypoint": "kpt_6",
+      "matched": 231,
+      "detection_rate": 0.8783269961977186,
+      "mean_error": 0.3130038879497679,
+      "median_error": 0.24308743909970082,
+      "pck_0.1": 0.09885931558935361,
+      "pck_0.2": 0.3269961977186312
+    },
+    {
+      "keypoint": "kpt_7",
+      "matched": 65,
+      "detection_rate": 0.24714828897338403,
+      "mean_error": 0.1547021608075236,
+      "median_error": 0.12908194922285843,
+      "pck_0.1": 0.09505703422053231,
+      "pck_0.2": 0.19771863117870722
+    },
+    {
+      "keypoint": "kpt_8",
+      "matched": 227,
+      "detection_rate": 0.8631178707224335,
+      "mean_error": 0.3100496193348903,
+      "median_error": 0.30130518145300816,
+      "pck_0.1": 0.057034220532319393,
+      "pck_0.2": 0.18250950570342206
+    },
+    {
+      "keypoint": "kpt_9",
+      "matched": 81,
+      "detection_rate": 0.30798479087452474,
+      "mean_error": 0.26109460708975063,
+      "median_error": 0.23789296040571473,
+      "pck_0.1": 0.0038022813688212928,
+      "pck_0.2": 0.09885931558935361
+    },
+    {
+      "keypoint": "kpt_10",
+      "matched": 15,
+      "detection_rate": 0.057034220532319393,
+      "mean_error": 0.4714190520127835,
+      "median_error": 0.4738536075136997,
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.0
+    },
+    {
+      "keypoint": "kpt_11",
+      "matched": 96,
+      "detection_rate": 0.3650190114068441,
+      "mean_error": 0.3301848906776868,
+      "median_error": 0.2981428798151776,
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.09125475285171103
+    },
+    {
+      "keypoint": "kpt_12",
+      "matched": 91,
+      "detection_rate": 0.34600760456273766,
+      "mean_error": 0.4226275303073763,
+      "median_error": 0.3743726578590507,
+      "pck_0.1": 0.0,
+      "pck_0.2": 0.011406844106463879
+    }
+  ],
+  "keypoint_mean_error": 0.29379871415566466,
+  "keypoint_pck_0.2": 0.13073998245100904,
+  "keypoint_detection_rate": 0.4290728283123721
+}

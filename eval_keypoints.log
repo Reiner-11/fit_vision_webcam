@@ -1,0 +1,24 @@
+  25/264 images
+  50/264 images
+  75/264 images
+  100/264 images
+  125/264 images
+  150/264 images
+  175/264 images
+  200/264 images
+  225/264 images
+  250/264 images
+  264/264 images
+
+Split val: 264 images, 264 labelled objects
+class             labels   preds   hits        P        R       F1
+Bird Dog              55     520      0    0.000    0.000    0.000
+Knee Push up          36    1116      0    0.000    0.000    0.000
+Plank                 48    5264      0    0.000    0.000    0.000
+Push up               18    1471      1    0.001    0.056    0.001
+Revese Lunge          53    2653     26    0.010    0.491    0.019
+Squat                 54    3406     36    0.011    0.667    0.021
+
+keypoints: mean error 0.294 of box diagonal, PCK@0.2 0.131, detection rate 0.429
+
+Wrote runs\pose\runs\pose\eval_smoke13\class_confusion_matrix.csv, .png, keypoint_metrics.csv, metrics.json
